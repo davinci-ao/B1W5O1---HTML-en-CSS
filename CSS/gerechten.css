@@ -2,7 +2,7 @@ nav ul {
 	margin: 0; /*Nu bijft de bar aan de bovenkant, anders springt het naar beneden*/
 	padding: 0; /*Nu blijft de bar mooi aan de zijkant zonder dat het inspringt.*/
 	text-align: center;
-	display: inline-block;
+	display: inline-block; /*Zorgt ervoor dat de opsomming achter elkaar komt (inline) maar het toch de eigenschappen behoud van een blok(breedte en hoogte aanpasbaar)*/
 	list-style: none; /*Verwijderd de opsommingstekens*/
 	background-color: #868686;
 	width: 100%;
@@ -84,7 +84,7 @@ ul#necessities li {
 	margin: 10px;
 }
 
-ol#recipe { /*50px want op de voorbeeld staan de cijfers gelijk aan de opsomming er boven*/
+ol#recipe { /*50px want op de voorbeeld staan de cijfers gelijk  aan de opsomming er boven*/
 	margin: 40px 50px 20px;
 }
 

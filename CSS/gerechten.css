@@ -1,24 +1,27 @@
 nav ul {
 	margin: 0; /*Nu bijft de bar aan de bovenkant, anders springt het naar beneden*/
-	padding: 0; /*Nu blijft de bar mooi aan de zijkant zonder dat het inspringt.*/
-	text-align: center;
 	display: inline-block; /*Zorgt ervoor dat de opsomming achter elkaar komt (inline) maar het toch de eigenschappen behoud van een blok(breedte en hoogte aanpasbaar)*/
+	text-align: center;
 	list-style: none; /*Verwijderd de opsommingstekens*/
 	background-color: #868686;
 	width: 100%;
+	height: 80px;
 	position: fixed; /*Nu blijft de bar vast zitten aan de bovenkant. Met de postitie 0 aan links en top.*/
 	top: 0; /*Er moet nog wel een positie toegewezen worden*/
 	left: 0;
+	box-shadow: 0 10px 8px #777777;
 }
 
 nav li {
 	display: inline-block;
+	border-right: 1px;
 	padding: 20px;
 }
 
 nav li a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
+	line-height: 25px;
 	display: block; /*Ik wil van de link een blok maken zodat je op de blok kan klikken */
 	padding: 10px 15px;
 	text-decoration: none; /*Verwijderd de underlines*/
@@ -26,16 +29,21 @@ nav li a {
 }
 
 nav li a:hover {
+	transition: 0.2s;
+	border-radius: 4px;
 	color: white;
 	background-color: black;
+	box-shadow: 10px 0px 8px #666666;
 	padding: 40px 35px 30px;
 	margin: -30px -20px;/*Omdat anders de blok, het element waar het in zit, te groot wordt. Het moet gelijk zijn*/
 }
 
 #active {
 	background-color: #def6ed;
+	border-radius: 4px;
 	padding: 30px 20px 20px;
 	margin: -10px 0; /*Omdat anders de blok, het element waar het in zit, te groot wordt. Het moet gelijk zijn*/
+	box-shadow: 10px 0px 8px #666666;
 }
 
 #active a {

@@ -1,0 +1,72 @@
+#maintitle{
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+	padding: 40px;
+	margin-left: -40px;
+}
+.title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	line-height: 32px;
+	padding: 40px;
+	margin-left: -40px;
+}
+#p1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+	margin: 40px;
+}
+div{
+	align-content: center;
+	margin: 0 auto;
+	width: 60%
+}
+.ingr{
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+	font-size: 20px;
+	line-height: 26px;
+}
+.bw{
+	font-family: 'Roboto', sans-serif;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 26px;
+	margin-left: 20px;
+}
+
+#gehakt-img{
+	height:450px; width:450px;
+}
+#tip{
+	background-color: #def6ed;
+	padding: 25px;
+	border-radius: 4px;
+	font-family: 'Roboto', sans-serif;
+}
+.active {
+    background-color: #bae0e7;
+}
+.navul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fed975;
+    font-family: 'Roboto', sans-serif;
+}
+.navli{
+	float: left;
+}
+li a:hover{
+    background-color: #84bcb7;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

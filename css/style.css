@@ -1,19 +1,19 @@
-#maintitle{
+body{
 	font-family: 'Roboto', sans-serif;
+}
+#maintitle{
 	font-size: 36px;
 	line-height: 36px;
 	padding: 40px;
 	margin-left: -40px;
 }
 .title{
-	font-family: 'Roboto', sans-serif;
 	font-size: 32px;
 	line-height: 32px;
 	padding: 40px;
 	margin-left: -40px;
 }
 #p1{
-	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	line-height: 32px;
 	margin: 40px;
@@ -22,15 +22,14 @@ div{
 	align-content: center;
 	margin: 0 auto;
 	width: 60%
+	
 }
 .ingr{
-	font-family: 'Roboto', sans-serif;
 	margin: 10px;
 	font-size: 20px;
 	line-height: 26px;
 }
-.bw{
-	font-family: 'Roboto', sans-serif;
+.bw li{
 	padding: 20px;
 	font-size: 20px;
 	line-height: 26px;
@@ -44,7 +43,6 @@ div{
 	background-color: #def6ed;
 	padding: 25px;
 	border-radius: 4px;
-	font-family: 'Roboto', sans-serif;
 }
 .active {
     background-color: #bae0e7;
@@ -55,9 +53,8 @@ div{
     padding: 0;
     overflow: hidden;
     background-color: #fed975;
-    font-family: 'Roboto', sans-serif;
 }
-.navli{
+.navul li{
 	float: left;
 }
 li a:hover{
@@ -69,4 +66,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+#bolt{
+	font-weight: bold;
 }
